@@ -1,0 +1,49 @@
+body {
+    background-image:url("bg-intro-desktop.png");
+    background-color: hsl(0, 100%, 74%);
+    padding: 7%;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    border: solid 1px;
+    height: 400px;
+}
+
+form {
+    border: solid 1px;
+}
+
+.introducao {
+    border: solid 1px;
+    color: hsl(0, 100%, 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header {
+    background-color: hsl(248, 32%, 49%);
+    height: 30px;
+    border-radius: 5px;
+    padding-top: 2%;
+    text-align: center;
+    color:hsl(0, 100%, 100%);
+}
+
+.form{
+    background-color: white;
+    margin-top: 15px;
+    height: 80%;
+    border-radius: 5px;
+
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
