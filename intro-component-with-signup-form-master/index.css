@@ -6,17 +6,16 @@ body {
 
 main {
     display: flex;
-    justify-content: space-evenly;
-    border: solid 1px;
+    justify-content: center;
     height: 400px;
 }
 
 form {
-    border: solid 1px;
+    margin-left: 4%;
+    width: 35%;
 }
 
 .introducao {
-    border: solid 1px;
     color: hsl(0, 100%, 100%);
     display: flex;
     flex-direction: column;
@@ -33,7 +32,7 @@ header {
 }
 
 .form{
-    background-color: white;
+    background-color: hsl(0, 100%, 100%);
     margin-top: 15px;
     height: 80%;
     border-radius: 5px;
@@ -46,6 +45,18 @@ input{
     margin-top: 3%;
     border-radius: 5px;
     border: 1px solid lightgray;
+}
+
+button {
+    width: 82%;
+    height: 11%;
+    margin-left: 9%;
+    margin-top: 3%;
+    border-radius: 5px;
+    background-color: hsl(154, 59%, 51%);
+    color: hsl(0, 100%, 100%);
+    text-align: center;
+    border: none;
 }
 
 .attribution { 
