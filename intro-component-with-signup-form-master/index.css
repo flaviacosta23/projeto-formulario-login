@@ -10,16 +10,23 @@ main {
     height: 400px;
 }
 
-form {
-    margin-left: 4%;
-    width: 35%;
-}
-
 .introducao {
     color: hsl(0, 100%, 100%);
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.introducao h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    height: 20%;
+}
+
+.introducao p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+
 }
 
 header {
@@ -29,6 +36,23 @@ header {
     padding-top: 2%;
     text-align: center;
     color:hsl(0, 100%, 100%);
+    font-size: 0.8em;
+}
+
+form {
+    margin-left: 4%;
+    width: 35%;
+    font-family: 'Poppins', sans-serif;
+}
+
+form p {
+    font-size: 0.6em;
+    text-align: center;
+    color: hsl(246, 25%, 77%);
+}
+
+span {
+    color: hsl(0, 100%, 74%);
 }
 
 .form{
@@ -45,6 +69,8 @@ input{
     margin-top: 3%;
     border-radius: 5px;
     border: 1px solid lightgray;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 5%;
 }
 
 button {
@@ -57,6 +83,7 @@ button {
     color: hsl(0, 100%, 100%);
     text-align: center;
     border: none;
+    font-family: 'Poppins', sans-serif;
 }
 
 .attribution { 
