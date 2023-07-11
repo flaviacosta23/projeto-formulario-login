@@ -16,9 +16,16 @@ function login() {
     if (firstName == inputForm.nome && lastName == inputForm.sobrenome && email == inputForm.email && password == inputForm.senha) {
         alert("Login");
     } else {
-        inputAll.forEach(input => {
-            input.style.borderColor = 'hsl(0, 100%, 74%)';
-        });
+        for (var i = 0; i < inputAll.length; i++) {
+            inputAll[i].style.borderColor = 'hsl(0, 100%, 74%)';
+
+            inputAll[i].style.backgroundImage = "url('icone.svg')";
+
+            inputAll[i].style.backgroundRepeat = "no-repeat";
+
+            inputAll[i].style.backgroundPosition = "calc(100% - 15px) center";
+
+        }
     }
 }
 
