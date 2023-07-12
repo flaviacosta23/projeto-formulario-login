@@ -25,7 +25,14 @@ function login() {
 
             inputAll[i].style.backgroundPosition = "calc(100% - 15px) center";
 
+            if (i === 2) {
+                inputAll[i].value = 'email@exemplo.com';
+                inputAll[i].style.color = 'hsl(0, 100%, 74%)';
+            }
+
         }
+
+
     }
 }
 
